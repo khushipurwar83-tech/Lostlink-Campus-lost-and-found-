@@ -11,7 +11,7 @@ We centralize lost & found posts, simplify searching and add a layer of security
 - *Contents Included:*   
 - PPT presentation: Campus_Lost_and_Found_Round1.pptx
 - README.md (this file)
-- *Your attention:* Problem statement, proposed solution, features, and tech stack
+- Problem statement, proposed solution, features, and tech stack
 # Key Features
 - Lost / Found posts with details and images
 - Feed of all posts in one place
