@@ -26,4 +26,3 @@ We centralize lost & found posts, simplify searching and add a layer of security
 - *Why :* It’s fast, scalable, and easy to setup for hackathon MVP
 ## How to Run (for Round 1)
 This Round 1 repository contains only the submission for PPT.
-Non functional code of Round 1 and Full source code of Round 2 round 1：Idea + PPT round2： source code with a MVP prototype 
