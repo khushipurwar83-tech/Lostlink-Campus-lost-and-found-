@@ -88,7 +88,7 @@ LostLink/
 ## ▶️ How to Run
 Open:
 ```text
-public/index.html
+frontend/index.html
 ```
 
 with **Live Server**
