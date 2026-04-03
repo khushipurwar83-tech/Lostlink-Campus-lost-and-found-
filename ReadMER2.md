@@ -10,73 +10,64 @@
 ---
 
 ## 🚀 Project Overview
-LostLink is a **smart and secure campus lost & found platform** designed to help students and faculty report, search, and recover lost items efficiently.
+LostLink is a **smart and secure campus lost & found platform prototype** designed to help students report, search, and recover lost items efficiently.
 
-Traditional methods like **WhatsApp groups and notice boards** are often unorganized and difficult to track.  
-LostLink provides a **centralized digital solution** where users can easily post lost/found items, search for them, and raise secure claim requests.
+The current Round 2 version is a **fully functional frontend prototype** that demonstrates the complete user flow using browser storage.
 
 ---
 
 ## 🎯 Problem Statement
-Students frequently lose important belongings such as:
+Students often lose important items such as:
+
+- 🎒 Bags
+- 📱 Phones
 - 🪪 ID cards
 - 🔑 Keys
-- 📱 Mobile phones
-- 🎒 Bags
 - 💳 Wallets
 
-Existing solutions are:
-- ❌ scattered
-- ❌ unorganized
-- ❌ difficult to verify
-- ❌ time-consuming
+Existing methods like **WhatsApp groups and notice boards** are scattered and unorganized.
 
-This creates delays in returning items to their rightful owners.
+This leads to delays and confusion in returning items.
 
 ---
 
-## 💡 Proposed Solution
-LostLink solves this issue by offering:
+## 💡 Current Prototype Solution
+The current prototype includes:
 
-- 📸 **Post lost/found items with images**
-- 🔍 **Search and filter system**
-- 📍 **Location and category based tracking**
-- 📩 **Secure claim request system**
-- 👥 **User-to-user contact for recovery**
-- 💾 **Local storage / backend-ready architecture**
+- 📸 Post lost / found items
+- 📰 View all posts in one feed
+- 🔍 Search and filter items
+- 📍 Category & location filters
+- 📩 Claim request flow
+- 💾 Local storage based data persistence
 
 ---
 
-## ✨ Key Features
-- 🔐 User login and registration
-- 🪪 College ID based access
-- 📸 Add item image and details
-- 📰 Centralized feed of all lost/found posts
-- 🔍 Search by category, location, date, keywords
-- 📩 Claim request workflow
-- 📱 Responsive UI
+## ✨ Features Implemented
+- 🔐 Login / Register UI
+- 📸 Add lost or found item
+- 📰 Centralized feed
+- 🔍 Search functionality
+- 📍 Filter by category and location
+- 📩 Claim request system
 - 💾 Browser localStorage support
-- ⚙️ Node.js backend structure ready
+- 📱 Responsive frontend interface
 
 ---
 
 ## 🛠️ Tech Stack
-### Frontend
+**Frontend**
 - HTML
 - CSS
 - JavaScript
 
-### Backend
-- Node.js
-- Express.js
+**Storage**
+- Browser localStorage
 
-### Database
-- MongoDB Atlas / localStorage
-
-### Tools
-- GitHub
+**Tools**
 - VS Code
 - Live Server
+- GitHub
 
 ---
 
@@ -84,7 +75,7 @@ LostLink solves this issue by offering:
 ```text
 LostLink/
 ├── public/
-├── server/
+├── server/        # backend-ready structure
 ├── .env.example
 ├── .gitignore
 ├── LostLink.pptx
@@ -95,44 +86,32 @@ LostLink/
 ---
 
 ## ▶️ How to Run
-### Install dependencies
-```bash
-npm install
-```
-
-### Start backend
-```bash
-node server/index.js
-```
-
-### Run frontend
 Open:
 ```text
 public/index.html
 ```
 
-using **Live Server**
+with **Live Server**
 
 ---
 
-## 📊 Round 2 Submission Includes
-- ✅ Working prototype
-- ✅ Frontend implementation
-- ✅ Backend-ready structure
-- ✅ PPT presentation
-- ✅ Source code
-- ✅ README documentation
+## ⚠️ Current Status
+This Round 2 submission currently contains a **frontend-only working prototype**.
+
+All user data and item posts are stored in **browser localStorage**.
+
+Backend integration with Node.js and MongoDB is planned for the next phase.
 
 ---
 
 ## 🚀 Future Scope
-- 🤖 AI-based smart item matching
-- 📍 real-time location suggestions
-- 📩 email / SMS notifications
+- ⚙️ Node.js backend integration
+- 🗄️ MongoDB database support
+- 🤖 smart item matching
+- 📩 notifications
 - 📱 mobile app version
-- 🏫 multi-campus support
 
 ---
 
 ## 🏆 HackMatrix 2026
-Developed as a functional prototype for **Round 2 submission**
+Developed as a functional prototype for Round 2
