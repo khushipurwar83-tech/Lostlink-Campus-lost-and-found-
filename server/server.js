@@ -24,12 +24,12 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 
 // ── Database Connection ───────────────────────────────────────
 //mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('✅ Connected to MongoDB Atlas'))
-  .catch(err => {
-    console.error('❌ MongoDB connection error:', err.message);
-    console.error('👉 Check your MONGODB_URI in .env file');
-    process.exit(1);
-  });
+  //.then(() => console.log('✅ Connected to MongoDB Atlas'))
+  //.catch(err => {
+    //console.error('❌ MongoDB connection error:', err.message);
+    //console.error('👉 Check your MONGODB_URI in .env file');
+    //process.exit(1);
+  //});
 
 // ── API Routes ────────────────────────────────────────────────
 // Each route file handles a specific feature area
